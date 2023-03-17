@@ -35,7 +35,7 @@ Genel olarak, bu Program HtmlAgilityPack ve XPath kullanarak bir HTML belgesinde
 
 ## Proje Kaynak Kodları ve yorum satırları 
 ## Program.cs
-```bash 
+```csharp 
  using HtmlAgilityPack;
 using System;
 using System.Collections.Generic;
@@ -102,7 +102,7 @@ Daha sonra, her bir ilan URL'si için "Class2" adlı başka bir sınıfın "GetI
 
 Bu kod, asenkron işlemleri kullandığı için ilan bilgilerini daha hızlı çeker ve programın donmasını önler. Ayrıca, CultureInfo.InvariantCulture kullanarak sayı formatlarını işler ve Regex kullanarak ilan adındaki gereksiz karakterleri kaldırır.
 ## Class2.cs
-  ```bash
+  ```csharp
  using System;
 using System.Collections.Generic;
 using System.Text;
@@ -196,7 +196,7 @@ Son olarak, her bir ilan için bir Ilan nesnesi oluşturulur ve bu nesneler bir 
 ## Class1.cs
 
 
-```bash
+```csharp
  using System;
 using System.Collections.Generic;
 using System.Text;
@@ -276,7 +276,7 @@ Yeniden deneme sayısı limitine ulaşıldığında, bir istisna fırlatılır v
 
 ## Ilan.cs
 
-```bash
+```csharp
  using System;
 using System.Collections.Generic;
 using System.Diagnostics;
