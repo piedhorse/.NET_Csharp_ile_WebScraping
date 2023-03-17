@@ -306,3 +306,7 @@ namespace ConsoleApp1
  Bu kod, "Ilan" adında bir sınıf tanımlamaktadır. Bu sınıf, bir araç ilanının ismi ve fiyatını tutmak için kullanılır. Sınıf iki özellik içerir: "Name" ve "Price". "Name" özelliği, ilanın ismini, "Price" özelliği ise ilanın fiyatını tutar.
 
 "Ilan" sınıfının kurucu metodu, isim ve fiyat parametreleri alır ve sınıfın özelliklerine atama yapar. Bu sayede, "Ilan" nesneleri oluşturulurken bu iki bilgi özelliklere kaydedilir.
+
+## Proje Demo
+https://user-images.githubusercontent.com/96746943/226051664-5890e482-5f79-4e4a-bed6-315320e5621b.mp4
+
