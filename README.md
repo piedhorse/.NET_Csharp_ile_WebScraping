@@ -4,7 +4,7 @@ Merhaba, bu Program  HtmlAgilityPack kullanarak bir web sitesinden bilgi çıkar
 
 
 
-![Logo](https://z2c2b4z9.stackpathcdn.com/images/logo256X256.png)  ![Logo](https://z2c2b4z9.stackpathcdn.com/images/logo256X256.png)
+![Logo](https://z2c2b4z9.stackpathcdn.com/images/logo256X256.png)  ![Logo]("D:\indirilenler\1677320264392.jpg")
 
     
 ## HtmlAgilityPack Nuget Paketini Projenize yukleyin
