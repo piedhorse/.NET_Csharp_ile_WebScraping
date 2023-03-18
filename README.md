@@ -5,7 +5,7 @@ Used .Net Core 3.1
 
 
 
-![Logo](https://z2c2b4z9.stackpathcdn.com/images/logo256X256.png) ![20230317_233420](https://user-images.githubusercontent.com/96746943/226099976-2447f763-92bb-4b22-9dae-a83fab9ab8d7.gif)
+![Logo](https://z2c2b4z9.stackpathcdn.com/images/logo256X256.png) 
 
 
     
@@ -309,6 +309,6 @@ namespace ConsoleApp1
 
 "Ilan" sınıfının kurucu metodu, isim ve fiyat parametreleri alır ve sınıfın özelliklerine atama yapar. Bu sayede, "Ilan" nesneleri oluşturulurken bu iki bilgi özelliklere kaydedilir.
 
-
-
+## Demo Video
+![20230317_233420](https://user-images.githubusercontent.com/96746943/226099976-2447f763-92bb-4b22-9dae-a83fab9ab8d7.gif)
 
