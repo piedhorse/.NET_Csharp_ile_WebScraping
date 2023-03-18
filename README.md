@@ -1,6 +1,7 @@
 
 # .NET_Csharp_ile_WebScraping
 Merhaba, bu Program  HtmlAgilityPack kullanarak bir web sitesinden bilgi çıkarmak için kullanılıyor. Daha spesifik olarak, [arabam.com](http://arabam.com/) sitesinden araç ilanlarındaki isimleri ve fiyatları çıkarmak için kullanılıyor.
+Used .Net Core 3.1 
 
 
 
@@ -20,7 +21,7 @@ komutları ile projenize bu paketi indirebilirsiniz.
 
 
 
-Bu işlem, HtmlWeb kullanılarak web sitesi yüklenerek, XPath kullanılarak ilgili HTML düğümleri seçilerek ve ardından bu düğümlerin metin değerleri ayrıştırılarak yapılıyor.
+Bu işlem , HtmlWeb kullanılarak web sitesi yüklenerek, XPath kullanılarak ilgili HTML düğümleri seçilerek ve ardından bu düğümlerin metin değerleri ayrıştırılarak yapılıyor.
 
 Class2 adlı statik bir sınıf tek bir yöntem içeriyor. Bu yöntem GetIlanAsync adını taşıyor ve tek bir argüman olan [arabam.com](http://arabam.com/)'daki bir ilanın URL'sini alıyor. Yöntem, bir veya daha fazla Ilan nesnesi içeren Task<List<Ilan>> nesnesi döndürür. List<Ilan> nesnesi, her biri bir araç ilanının adını ve fiyatını temsil eden Ilan nesnelerini içerir.
 
