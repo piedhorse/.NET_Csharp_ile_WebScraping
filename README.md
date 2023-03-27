@@ -56,6 +56,8 @@ namespace ConsoleApp1
     {
         static async Task Main(string[] args)
         {
+            // Arabam.com'dan ilan URL'lerini al
+            List<string> ilanUrls = await Class1.GetIlanUrlsAsync();
             Console.WriteLine("https://www.arabam.com Vitrin Bolumu ilan bilgileri getiriliyor");
             Console.Write("Yukleniyor");
 
@@ -66,10 +68,8 @@ namespace ConsoleApp1
             }
 
             Console.WriteLine("Basarili!");
-            // Arabam.com'dan ilan URL'lerini al
-            List<string> ilanUrls = await Class1.GetIlanUrlsAsync();
+           
 
-            Thread.Sleep(2000);
             // Tüm ilanlar için sırayla bilgi al ve ilanlar listesine ekle
 
             List<Ilan> ilanlar = new List<Ilan>();
