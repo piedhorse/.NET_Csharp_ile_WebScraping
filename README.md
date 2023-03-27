@@ -1,4 +1,4 @@
-ee
+
 # .NET_Csharp_ile_WebScraping
 Merhaba, bu Program  HtmlAgilityPack kullanarak bir web sitesinden bilgi çıkarmak için kullanılıyor. Daha spesifik olarak, [arabam.com](http://arabam.com/) sitesinden araç ilanlarındaki isimleri ve fiyatları çıkarmak için kullanılıyor.
 Used .Net Core 3.1 
